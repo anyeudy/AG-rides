@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG Trips</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>AG Trips</h1>
+<p>Viajes privados estilo Uber</p>
+</header>
+
+<section class="hero">
+<h2>Reserva tu viaje</h2>
+<p>Desde $3 por milla</p>
+</section>
+
+<section class="form">
+<input type="text" id="millas" placeholder="Millas">
+<input type="text" id="tiempo" placeholder="Minutos">
+<input type="text" id="peajes" placeholder="Peajes">
+
+<select id="horario">
+<option>Mañana</option>
+<option>Tarde</option>
+<option>Noche</option>
+</select>
+
+<button onclick="calcular()">Calcular viaje</button>
+
+<h3 id="resultado"></h3>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
